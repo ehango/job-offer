@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  
+
+  <nav>
+    <h1>Data Nerd</h3>
+  </nav>
+
+
+
+  <form action="#">
+    
+    <fieldset class="col-one">
+      
+      <label>Type of Offer:</br>
+        <input type="radio" class="radio-select-new" name="offertype" value="newjob" checked="checked"/>New Job
+        <input type="radio" class="radio-select-current" name="offertype" value="currentjob"/>Current Job
+      </br>
+      </label>
+
+      <label>Company Name:</br>
+        <input type="text" name="companyname"/></br>
+      </label>
+
+      <label>Position Title:</br>
+        <input type="text" name="positionname"/></br>
+      </label>
+
+      <label>Zip Code:</br>
+        <input type="text" name="locationzip"/></br>
+      </label>
+  </fieldset>
+  <fieldset>
+      <label>Start Date*:</br>
+        <input type="text" name="startdate" required="required"/></br>
+      </label>
+
+      <label>Annual Salary*:</br>
+        <input type="number" name="annualbase" required="required"/></br>
+      </label>
+    
+      <label>Salary Growth &#40Annual&#41*:</br>
+        <input type="text" name="salarygrowth" required="required"/>
+        </br>
+      </label>
+
+      <label>Signing Bonus:</br>
+        <input type="text" name="signingbonus"/>
+        </br>
+      </label>
+    </fieldset>
+    
+  <fieldset class="col-two">
+      <label>Tuition Bonus:</br>
+        <input type="text" name="tuitionbonus"/></br>
+      </label>
+
+      <label>Discount Rate:</br>
+        <input type="text" name="discountrate"/></br>
+      </label>
+
+      <label>Other Bonus:</br>
+        <input type="text" name="otherbonus"/></br>
+      </label>
+
+      <label>Bonus Date:</br>
+        <input type="text" name="bonusdate"/></br>
+      </label>
+  </fieldset>
+  <fieldset>
+    
+      <label>Stock Bonus:</br>
+        <input type="text" name="stockbonus"/></br>
+      </label>
+
+      <label>Stock Growth &#40Annual&#41:</br>
+        <input type="text" name="positionname"/></br>
+      </label>
+
+      <label>Vested Amount:</br>
+        <input type="text" name="vestingamount"/></br>
+      </label>
+
+      <label>Date Vested:</br>
+        <input type="text" name="vestingdate"/></br>
+      </label>
+    </fieldset>
+    <p>* Indicates required field</p>
+    <input type="submit" id="button" value="Submit"/>
+  </br>
+  	</form>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('http://i666.photobucket.com/albums/vv23/ehanson132/CU0Ma3o_zpsrrdsc4w2.png');
+}
+
+nav {
+  /*background-color: #526692; */
+}
+h1 {
+  font-family: Impact;
+  text-align: center;
+  font-size: 4rem;
+  padding: 1.5rem;
+  color: white;
+}
+
+form {
+  background-color: white;
+  width: 80rem;
+  font-size: 1rem;
+  font-family: Georgia;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 2rem;
+  
+}
+
+fieldset {
+  margin: 0;
+  padding: 2rem 0 0;
+  display: inline-block;
+  vertical-align: top;
+  width: 24.7%;
+  border: 0;
+  
+}
+
+
+input {
+  width: 70%;
+  margin: .5rem 1rem 1.4rem 3rem;
+}
+
+.radio-select-new, .radio-select-current {
+  width: 1.5rem;
+  /*margin-bottom: 1.7rem;
+  margin-right: .2rem;*/
+  margin: .7rem .2rem 1.6rem 3rem;
+}
+
+.radio-select-current {
+  margin-left: 1rem;
+}
+
+label {
+  margin: 1rem 1rem 1rem 3rem;
+}
+
+p {
+  margin-left: 3rem;
+}
+#button {
+  color: white;
+  height: 2rem;
+  width: 40%;
+  background-color: #2ABBC9;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: 0;
+  display: block;
+  margin: .5rem auto ;
+}
+
+#button:hover {
+  cursor: pointer;
+  color: black;
+}
