@@ -29,7 +29,9 @@ h1 {
 
 form {
   background-color: white;
-  width: 80rem;
+  width: 90%;
+  min-width: 1100px;
+  max-width: 1100px;
   font-size: 1rem;
   font-family: Georgia;
   position: relative;
