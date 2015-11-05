@@ -1,3 +1,5 @@
+
+
 html {
   box-sizing: border-box;
 }
@@ -18,7 +20,7 @@ nav {
   /*background-color: #526692; */
 }
 h1 {
-  font-family: Impact;
+  font-family: 'Righteous';
   text-align: center;
   font-size: 4rem;
   padding: 1.5rem;
